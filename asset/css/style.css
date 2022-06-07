@@ -302,3 +302,10 @@ nav a:hover{
     border-radius: 5px;
     margin-top: 5px;
 }
+
+#succesNews{
+    background:linear-gradient(#fff,#0fff);
+    font-size : 50px;
+    color:#808080
+
+}
