@@ -287,3 +287,10 @@ nav a:hover{
         display:none;
     }
 }
+
+#formNewlestter{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    
+}

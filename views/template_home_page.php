@@ -24,8 +24,8 @@
         <div class="upNavBar">
             <div class="infoDesc">
                 <img  class="logo" src="./asset/logo.png" alt="">
-                <i class="fa-solid fa-envelope"></i><p>saad-kevin-elodi@gmail.com</p>
-                <i class="fa-solid fa-phone"></i><p>+33 71 888 888</p>
+                <i class="fa-solid fa-envelope"></i><p>saad-kevin-elodie@gmail.com</p>
+                <i class="fa-solid fa-phone"></i><p>02 54 88 88 78</p>
             </div>
             <div class="icon">
                 <a href="instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -52,7 +52,7 @@
                 <nav >
                     <span class="close"><i class="fa-solid fa-xmark"></i></span>
                     <a class="user"href="#"><i class=" nav-link fa-solid fa-user"></i></a> 
-                    <a href="">RéSERVATION</a>
+                    <a href="">RÉSERVATION</a>
                     <a href="">DESTINATION</a>
                     <a href="">NOS PARTENAIRES</a>
                     <a href="">CONTACT</a>
@@ -63,5 +63,17 @@
     </div>
     <script src="./asset/json/js/jquery-3.6.0.min.js"></script>
     <script src="./asset/json/js/travel.js"></script>
+    <div id="formNewlestter">
+    
+    <center>
+        <form method="post" id="formNewlestter">
+        Inscrivez-vous à notre Newsletter !
+        <br/>
+        <input type="text" name="mail" placeholder="Votre email" />
+        <br/>
+        <input type="submit" value="S'inscrire" />
+    </form>
+    </center>
+    </div>
 </body>
 </html>
