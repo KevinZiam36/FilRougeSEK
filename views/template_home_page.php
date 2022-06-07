@@ -25,11 +25,10 @@
             <div class="infoDesc">
                 <img  class="logo" src="./asset/logo.png" alt="">
                 <i class="fa-solid fa-envelope"></i><p>saad-kevin-elodie@gmail.com</p>
-<<<<<<< HEAD
+
                 <i class="fa-solid fa-phone"></i><p>02 54 88 88 78</p>
-=======
-                <i class="fa-solid fa-phone"></i><p>+33 71 888 888</p>
->>>>>>> fff31046020c8bd2703bbdc8e1b8ed4957222195
+
+
             </div>
             <div class="icon">
                 <a href="instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -67,17 +66,19 @@
     </div>
     <script src="./asset/json/js/jquery-3.6.0.min.js"></script>
     <script src="./asset/json/js/travel.js"></script>
-    <div id="formNewlestter">
+    
     
     <center>
-        <form method="post" id="formNewlestter">
-        Inscrivez-vous à notre Newsletter !
-        <br/>
-        <input type="text" name="mail" placeholder="Votre email" />
-        <br/>
-        <input type="submit" value="S'inscrire" />
-    </form>
+        <div id="formNewsletter">
+            <form method="post">
+                Inscrivez-vous à notre Newsletter !
+                <br/>
+                <input type="text" name="mail" placeholder="Votre email" />
+                <br/>
+                <input type="submit" value="S'inscrire" id="btnNewsletter"/>
+            </form>
+        </div>
     </center>
-    </div>
+    
 </body>
 </html>
