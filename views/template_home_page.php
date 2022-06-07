@@ -24,7 +24,7 @@
         <div class="upNavBar">
             <div class="infoDesc">
                 <img  class="logo" src="./asset/logo.png" alt="">
-                <i class="fa-solid fa-envelope"></i><p><saad-kevin-elodie@gmail.com></p>
+                <i class="fa-solid fa-envelope"></i><p>saad-kevin-elodie@gmail.com</p>
                 <i class="fa-solid fa-phone"></i><p>+33 71 888 888</p>
             </div>
             <div class="icon">
