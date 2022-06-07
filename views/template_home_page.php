@@ -25,10 +25,14 @@
             <div class="infoDesc">
                 <img  class="logo" src="./asset/logo.png" alt="">
                 <i class="fa-solid fa-envelope"></i><p>saad-kevin-elodie@gmail.com</p>
+<<<<<<< HEAD
 
                 <i class="fa-solid fa-phone"></i><p>02 54 88 88 78</p>
 
 
+=======
+                <i class="fa-solid fa-phone"></i><p>02 54 88 88 78</p>
+>>>>>>> 0e36efb377cd975384c7931599f731b323e7992c
             </div>
             <div class="icon">
                 <a href="instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
