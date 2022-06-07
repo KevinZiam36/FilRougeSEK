@@ -3,19 +3,12 @@
 function ajouterEmailDatabase($pAdresseEmail)
 {
     try
-<<<<<<< Updated upstream
     {
-        $sql = "INSERT INTO newsletter (email) value (?);";
-        $db = new PDO('mysql:host=localhost;db=sek',
-        'root','');
-    
-    $stmt = $db->prepare($sql);
-    $stmt->execute([$pAdresseEmail]);
-=======
-    { 
-    $db = new PDO('mysql:host=localhost;db=sek',
-    'root','');
->>>>>>> Stashed changes
+        $sql = "INSERT INTO newsletter (`id`,`email`) values (NULL,'$pAdresseEmail');";
+        $db = new PDO('mysql:host=localhost;dbname=sek','root','');
+    echo $sql;
+    //$stmt = $db->prepare($sql);
+    $db ->query($sql);
     }
 
     catch(PDOException $e)

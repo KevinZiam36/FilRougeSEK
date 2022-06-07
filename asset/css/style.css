@@ -297,7 +297,7 @@ nav a:hover{
 #btnNewsletter{
     background-color: #0fff;
     color: black;
-    padding: 5px;
+    padding-bottom: 5px;
     border: 2px solid white;
     border-radius: 5px;
     margin-top: 5px;
